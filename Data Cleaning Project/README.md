@@ -25,13 +25,12 @@ This project involved cleaning and preparing a dataset titled **[layoffs.csv/]**
 ---
 
 ## ⚙️ Features / What I Did
-- ✅ Cleaned and transformed raw data  
-- ✅ Performed exploratory data analysis (EDA)  
-- ✅ Wrote optimized SQL queries 
-- ✅ Remove Duplicates
-- ✅ Standardize the Data
-- ✅ Removed Null Values or blank values
-- ✅ Remove any unneccessary columns 
+- ✅ Cleaned and transformed the raw layoffs.csv dataset
+- ✅ Removed duplicate entries to ensure data integrity
+- ✅ Standardized column formats (e.g., date, company names, industries)
+- ✅ Handled missing or blank values by imputing or removing as appropriate
+- ✅ Dropped irrelevant or unnecessary columns to streamline analysis
+- ✅ Wrote and executed optimized SQL queries for targeted data retrieval
 
 
 ---
