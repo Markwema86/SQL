@@ -1,18 +1,17 @@
-# 📊 Project Title – One-liner summary
-> Example: **Sales Analytics Dashboard – A Power BI dashboard analyzing retail performance KPIs**
+# 📊 Data Cleaning Project - Cleaned Data In SQL
+> Tool: **MySql Workbeanch**
 
 ---
 
 ## 🧠 Overview  
-This project aims to analyze **[dataset/topic]** using data analysis, visualization, and/or machine learning techniques.  
-The results are presented through an interactive dashboard or web application.
+This project involved cleaning and preparing a dataset titled **[layoffs.csv/]**, which contains global layoff data from various tech and non-tech companies. The dataset includes fields such as company name, industry, number of layoffs, percentage laid off, location, date, and funding stage. The data was often inconsistent, with missing values, duplicate entries, and incorrect data types. The goal of the project was to clean and standardize the dataset to enable accurate analysis of layoff trends over time, by sector, and by geography.
 
 ---
 
 ## 📁 Dataset  
 - **Source:** [Link to dataset]  
-- **Size:** Approx. X MB / records  
-- **Description:** Includes [e.g., sales, customer demographics, transactions, etc.]
+- **Size:** Approx. 18 KB / records  
+- **Description:** Includes [e.g.,company name, industry, number of layoffs, percentage laid off, location, etc.]
 
 ---
 
@@ -20,36 +19,27 @@ The results are presented through an interactive dashboard or web application.
 
 | Category         | Tools & Languages                       |
 |------------------|------------------------------------------|
-| Programming      | Python, SQL, Scala                       |
-| Data Processing  | MySQL, Pandas, Spark                     |
-| Visualization    | Power BI, Metabase, Chart.js             |
-| Frontend         | HTML5, CSS3, Bootstrap, JavaScript       |
-| Big Data         | Apache Spark, Hadoop                     |
-| Machine Learning | Spark MLlib, Scikit-learn (if used)      |
+| Programming      | SQL                                      |
+| Data Processing  | MySQL                                    |
 
 ---
 
 ## ⚙️ Features / What I Did
 - ✅ Cleaned and transformed raw data  
 - ✅ Performed exploratory data analysis (EDA)  
-- ✅ Wrote optimized SQL queries or Spark jobs  
-- ✅ Built KPI dashboards and interactive reports  
-- ✅ [If ML] Trained models for clustering/classification  
-- ✅ Deployed frontend UI to display insights (if applicable)  
+- ✅ Wrote optimized SQL queries 
+- ✅ Remove Duplicates
+- ✅ Standardize the Data
+- ✅ Removed Null Values or blank values
+- ✅ Remove any unneccessary columns 
 
----
-
-## 📊 Screenshots (optional)  
-_Add screenshots or demo links of the dashboard, charts, or UI._  
-![Dashboard Preview](https://via.placeholder.com/600x350?text=Insert+Screenshot+Here)
 
 ---
 
 ## 💡 Key Insights  
-Highlight 3–5 key takeaways, trends, or patterns you discovered.  
-- 📈 Region X generated 40% of sales  
-- 👥 Segment Y showed the highest retention  
-- 🤖 Predictive model achieved 90% accuracy  
+- 📈 The dataset had duplicates and null values  
+- 👥 The dataset had unneccessary columns  
+- 🤖 I inserted other fields for neccessary for next step of visualization  
 
 ---
 
@@ -57,39 +47,35 @@ Highlight 3–5 key takeaways, trends, or patterns you discovered.
 
 1. Clone the repo  
 ```bash
-git clone https://github.com/your-username/project-name.git
-cd project-name
+git clone https://github.com/Markwema86/SQL.git
+cd Data Cleaning Project
 ```
 2. Install requirements
 ```bash
-pip install -r requirements.txt
+Install - MySql,My Sql Workbeanch
 ```
 3. Run the application
-- To launch a Jupyter Notebook:
+- To launch a SQL Scripts:
 ```bash
-jupyter notebook notebooks/your_notebook.ipynb
+Open Data Cleaning Project.sql on MySql Workbeanch
 ```
-- To launch a Streamlit app:
+- Run all the DDL & DML codes to create a DB on your local PC:
 ```bash
-streamlit run src/app.py
+Run each individual code to view it 
 ```
-- For frontend visualizations:
-Just open index.html in your browser.
 
 ---
 
 ## 🧩 Folder Structure
-📁 project-name/
-├── data/             # Raw and processed datasets
-├── notebooks/        # Jupyter notebooks for EDA or modeling
-├── src/              # Source code (e.g., ETL scripts, streamlit app)
-├── dashboards/       # Power BI or Metabase dashboard files
-├── index.html        # Frontend demo page (if applicable)
-└── README.md         # Project documentation
+📁 Data Cleaning Project/
+├── Data Cleaniing Project.sql/      # Source code (e.g., DDL, DML)
+├── README.md         # Project documentation
+└── layoffs.csv/      # Raw and processed datasets
 
 ---
 
 ## 📬 Contact
 - Created by Mark Wema
 - 📧 [your.email@example.com]
-- 🔗 LinkedIn • Portfolio
+- 🔗 ![LinkedIn](https://www.linkedin.com/in/mark-wema-385193328/)
+-  • ![Portfolio]()
