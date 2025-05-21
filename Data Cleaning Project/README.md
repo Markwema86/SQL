@@ -36,10 +36,14 @@ This project involved cleaning and preparing a dataset titled **[layoffs.csv/]**
 ---
 
 ## 💡 Key Insights  
-- 📈 The original dataset contained duplicates and null values, which affected data quality
-- 🧹 Several unnecessary columns were identified and removed to enhance focus and clarity
-- 🔍 Additional fields were engineered (e.g., year, total layoffs per company) to support deeper visualization and analysis in the next phase
-- 📊 Data cleaning significantly improved the accuracy and usability of insights drawn from the dataset
+📈 Duplicates & Null Values:
+The original dataset contained duplicate records and numerous null or blank values, which impacted overall data quality and reliability.
+🧹 Unnecessary Columns:
+Several irrelevant or redundant columns were identified and removed to streamline the dataset and improve focus during analysis.
+🔍 Feature Engineering:
+New fields such as year, month, and total layoffs per company were created to enable more meaningful exploration and visualization in later stages.
+📊 Enhanced Data Quality:
+The cleaning process significantly improved the dataset's structure and integrity, making it more suitable for accurate and insightful analysis.
 
 ---
 
