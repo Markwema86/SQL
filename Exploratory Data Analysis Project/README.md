@@ -4,7 +4,7 @@
 ---
 
 ## 🧠 Overview  
-This project involved cleaning and preparing a dataset titled **[layoffs.csv/]**, which contains global layoff data from various tech and non-tech companies. The dataset includes fields such as company name, industry, number of layoffs, percentage laid off, location, date, and funding stage. The data was often inconsistent, with missing values, duplicate entries, and incorrect data types. The goal of the project was to clean and standardize the dataset to enable accurate analysis of layoff trends over time, by sector, and by geography.
+This EDA project explores trends and patterns in a cleaned dataset of global layoffs **[layoffs.csv]**. After performing thorough data cleaning to handle missing values, duplicates, and inconsistent formatting, the analysis focused on uncovering insights related to layoffs across companies, industries, countries, and time periods. Key areas of analysis included identifying the most affected sectors, peak layoff periods, geographical layoff hotspots, and the correlation between funding stages and layoff rates. 
 
 ---
 
@@ -25,13 +25,7 @@ This project involved cleaning and preparing a dataset titled **[layoffs.csv/]**
 ---
 
 ## ⚙️ Features / What I Did
-- ✅ Cleaned and transformed raw data  
-- ✅ Performed exploratory data analysis (EDA)  
-- ✅ Wrote optimized SQL queries 
-- ✅ Remove Duplicates
-- ✅ Standardize the Data
-- ✅ Removed Null Values or blank values
-- ✅ Remove any unneccessary columns 
+- ✅ Performed in-depth Exploratory Data Analysis (EDA) to uncover trends and insights
 
 
 ---
