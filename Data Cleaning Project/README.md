@@ -67,10 +67,10 @@ Run each individual code to view it
 ---
 
 ## 🧩 Folder Structure
-📁 Data Cleaning Project/
-├── Data Cleaniing Project.sql/      # Source code (e.g., DDL, DML)
-├── README.md         # Project documentation
-└── layoffs.csv/      # Raw and processed datasets
+- 📁 Data Cleaning Project/
+- ├── Data Cleaniing Project.sql/      # Source code (e.g., DDL, DML)
+- ├── README.md         # Project documentation
+- └── layoffs.csv/      # Raw and processed datasets
 
 ---
 
