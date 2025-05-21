@@ -36,32 +36,49 @@ This project involved cleaning and preparing a dataset titled **[layoffs.csv/]**
 ---
 
 ## 💡 Key Insights  
-- 📈 The dataset had duplicates and null values  
-- 👥 The dataset had unneccessary columns  
-- 🤖 I inserted other fields for neccessary for next step of visualization  
+- 📈 The original dataset contained duplicates and null values, which affected data quality
+- 🧹 Several unnecessary columns were identified and removed to enhance focus and clarity
+- 🔍 Additional fields were engineered (e.g., year, total layoffs per company) to support deeper visualization and analysis in the next phase
+- 📊 Data cleaning significantly improved the accuracy and usability of insights drawn from the dataset
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone the repo  
+1. Install MySQL & MySQL Workbench
+- Ensure MySQL Server and MySQL Workbench are installed on your machine.
+- Create a local connection and start the MySQL server.
+2. Import the Dataset (layoffs.csv)
+- Convert the CSV file to a compatible format if needed (e.g., UTF-8).
+- Use the "Table Data Import Wizard" in MySQL Workbench to load layoffs.csv into a new table.
+- Example table name: layoffs_raw.
+3. Create a Cleaned Version of the Table
+- Write SQL queries to create a new table for cleaned data.
+- Example:
 ```bash
-git clone https://github.com/Markwema86/SQL.git
-cd Data Cleaning Project
+CREATE TABLE layoffs_cleaned AS
+SELECT DISTINCT
+    company,
+    industry,
+    total_laid_off,
+    percentage_laid_off,
+    location,
+    country,
+    DATE_FORMAT(date, '%Y-%m-%d') AS clean_date,
+    stage,
+    funds_raised_millions
+FROM layoffs_raw
+WHERE company IS NOT NULL
+  AND total_laid_off IS NOT NULL;
 ```
-2. Install requirements
+2. Verify Cleaned Data
+- Run SELECT queries to inspect the cleaned table.
+- Example:
 ```bash
-Install - MySql,My Sql Workbeanch
+SELECT * FROM layoffs_cleaned LIMIT 100;
 ```
-3. Run the application
-- To launch a SQL Scripts:
-```bash
-Open Data Cleaning Project.sql on MySql Workbeanch
-```
-- Run all the DDL & DML codes to create a DB on your local PC:
-```bash
-Run each individual code to view it 
-```
+3. Export Cleaned Data (Optional)
+- Export the cleaned table back to CSV for further use in Excel, Python, or visualization tools.
 
 ---
 
