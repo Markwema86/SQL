@@ -93,5 +93,5 @@ SELECT * FROM layoffs_cleaned LIMIT 100;
 ## 📬 Contact
 - Created by Mark Wema
 - 📧 [your.email@example.com]
-- 🔗 ![LinkedIn](https://www.linkedin.com/in/mark-wema-385193328/)
--  • ![Portfolio]()
+- 🔗 [LinkedIn](https://www.linkedin.com/in/mark-wema-385193328/)
+-  • [Portfolio]()
